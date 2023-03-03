@@ -1,0 +1,81 @@
+body{
+    background-color:#FF7582;                            /*cor da tela de fundo da pagina*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aliceblue;
+}
+
+ul{
+    display: flex;                                      /*ainda não entendi o que faz*/
+    justify-content: space-around;                      /*espaçamento entre os items da lista*/
+    list-style-type:none;                               /*tipo da lista, no caso sem caracteres de lista (none)*/
+    padding: 20px;
+    font-size: 16px;
+}
+
+a {
+    color: #355c7D;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+header img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    border: 3px solid #725A7A;
+}
+
+.imagemHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.tittleHeader {
+    text-align: center;
+    display: block;
+
+}
+
+h1 {
+    color: #355c7D;
+    text-align: center;
+}
+
+h2 {
+    color: #355c7D;
+    text-align: center;
+}
+
+h3 {
+    color: #9e405b;
+    text-align: flex-start;
+}
+
+p {
+    color: #6d5b74;
+    font-family:'Courier New', Courier, monospace;
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a{
+    text-align: center;
+}
+
+.final{
+    justify-content: center;
+}
+
+
